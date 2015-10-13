@@ -1,0 +1,9 @@
+#boy-bands {
+	margin-bottom: 20px;
+}
+
+#boy-bands, 
+#vegetables {
+	background-color: #ffdead;
+	padding: 10px;
+}
