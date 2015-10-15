@@ -12,18 +12,28 @@
 */
 
 function reversal(origString) {
-
+	document.write(origString.split("").reverse().join("") + "<br/>");
 }
 
-function alphabits() {
-
+function alphabits(origString) {
+	document.write(origString.split("").sort().join("") + "<br/>");
 }
 
-function palindrome() {
-
+function palindrome(origString) {
+	var original = origString.replace(/[\s,]/g, "").toLowerCase();
+	var backwards = original.split("").reverse().join("");
+	console.log(backwards);
+	console.log(original);
+	if (backwards === origString) {
+		document.write("true");
+	} else {
+		document.write("false");
+	}
 }
 
-var testString = "";
+
+
+var testString = "The quick brown fox jumps over the lazy NSS student";
 reversal(testString);
 alphabits(testString);
 palindrome(testString);
