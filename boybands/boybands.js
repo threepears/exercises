@@ -31,3 +31,10 @@ for (var loopTracker = 0; loopTracker < loopCount; loopTracker += 1) {
   veggieElement.innerHTML = veggieElement.innerHTML + vegetableCode;
 
 }
+
+var thingy = bands;
+console.log(thingy);
+
+thingy[0] = "TLC";
+console.log(bands);
+console.log(thingy);

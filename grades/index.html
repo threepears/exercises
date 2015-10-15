@@ -10,6 +10,13 @@
 
 <body>
 
+	<form action="">
+		<label for="slider">Range Slider</label>
+		<input type="range" id="slider" name="slider" min="0" max="100" step="10" value="50" oninput="num.value=slider.value">
+			<br />
+		<label for="num">Number Entry</label>
+		<input type="number" name="num" min="0" max="100" step="10" value="50" oninput="slider.value=num.value">
+	</form>
 
 	<script src="grades.js"></script>
 

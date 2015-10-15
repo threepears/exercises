@@ -68,6 +68,45 @@ console.log("The highest score is", highest);
 
 
 
+//CHALLENGE 1
+for (var i = 0; i < 100; i++) {
+	for (var j = 1; j < 11; j++) {
+		if (i / j)
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
