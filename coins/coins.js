@@ -53,7 +53,7 @@ function coinCounter (amount) {
   return coinPurse;
 }
 
-var amount = 5.41;
+var amount = prompt("Enter a dollar amount!");
 var coins = coinCounter(amount)
 console.log(coins);
 
