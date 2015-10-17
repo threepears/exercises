@@ -1,0 +1,103 @@
+body {
+	font-family: Tahoma, Helvetica, sans-serif;
+	background-color: #afeeee;
+	background-image: url(http://i0.wp.com/playrust.com/wp-content/uploads/2015/06/4-y3RwkOI.jpg);
+
+}
+
+#container {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Oleo Script Swash Caps', cursive;
+	font-size: 3em;
+	text-shadow: 0 0 40px #fff;
+	margin-bottom: 20px;
+}
+
+fieldset {
+	border-radius: 10px;
+	background-color: #ffefd5;
+	margin: 20px 0;
+	text-align: center;
+	padding: 15px 0;
+	border: 2px solid #afeeee;
+	box-shadow: 0 5px 8px rgba(0,0,0,0.4);
+}
+
+fieldset > p {
+	margin-top: 0;
+}
+
+label {
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.buttons {
+	text-align: center;
+}
+
+input[type="number"] {
+	font-size: 2em;
+	text-align: center;
+	border-radius: 5px;
+	width: 100px;
+	margin-top: 10px;
+}
+
+input[type="submit"] {
+	color: #fff;
+	background-color: blue;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 1em;
+	padding: 10px 10px;
+	margin: 0 10px;
+	box-shadow: 0 5px 8px rgba(0,0,0,0.4);
+}
+
+input[type="submit"]:hover {
+	cursor: pointer;
+	box-shadow: none;
+	color: yellow;
+	border-color: yellow;
+	background-color: red;
+}
+
+#result {
+	background-color: #ffefd5;
+	border: 2px solid #afeeee;
+	border-radius: 10px;
+	box-shadow: 0 5px 8px rgba(0,0,0,0.4);
+	font-size: 4em;
+	width: 25%;
+	height: 100px;
+	text-align: center;
+	margin: 40px auto 20px;
+	padding-top: 3%;
+}
+
+#result.normal {
+	background-color: green;
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+#result.hot {
+	background-color: red;
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+#result.cold {
+	background-color: blue;
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+

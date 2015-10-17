@@ -5,11 +5,39 @@
   <meta charset="utf-8">
   <title>Temperature</title>
 
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
 
-	<div>
+	<div id="container">
+
+		<h1>The Amazing Temperature Converter</h1>
+
+		<form>
+			<fieldset>
+				<label for="inputtemp">Please enter a temperature here:</label><br/>
+				<input type="number" name="inputtemp" id="inputtemp">
+			</fieldset>	
+
+			<fieldset>
+				<p>Please choose desired unit to convert to:</p>
+				<input type="radio" name="unit" id="celsius" value="celsius"> Celsius
+				<input type="radio" name="unit" id="fahrenheit" value="fahrenheit"> Fahrenheit
+			</fieldset>
+
+			<div class="buttons">
+				<input type="submit" id="converter" value="CONVERT!"></input>
+			</div>
+		</form>
+
+		<div id="result">
+		</div>
+
+		<div class="buttons">
+			<input type="submit" id="clear" value="CLEAR RESULT"></input>
+		</div>
 
 	</div>
 
