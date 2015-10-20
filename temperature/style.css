@@ -2,7 +2,7 @@ body {
 	font-family: Tahoma, Helvetica, sans-serif;
 	background-color: #afeeee;
 	background-image: url(http://i0.wp.com/playrust.com/wp-content/uploads/2015/06/4-y3RwkOI.jpg);
-
+	transition: all 1s;
 }
 
 #container {

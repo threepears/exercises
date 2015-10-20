@@ -54,6 +54,11 @@ function determineConverter (clickEvent) {
 
   var temp = document.getElementById("inputtemp").value;
 
+  if (temp === "") {
+    button.value = "PLEASE ENTER A TEMPERATURE";
+    return false;
+  }
+
   if (cel.checked === false && fahr.checked === false) {
     button.value = "PLEASE CHOOSE A UNIT";
     return false;
@@ -88,6 +93,10 @@ function determineConverter (clickEvent) {
 
 // Assign a function to be executed when the button is clicked
 button.addEventListener("click", determineConverter);
+
+temp.addEventListener("keyup", function() {
+  button.value = "CONVERT!";
+});
 
 cel.addEventListener("click", function() {
   button.value = "CONVERT!";
